@@ -13,6 +13,8 @@ A curated set of Agent Skills for ChatGPT/Codex workflows used by SATNO projects
 - `frontend-design` — design polished Persian/RTL interfaces for SATNO web products.
 - `webapp-testing` — run browser-based regression and release-readiness checks.
 - `mcp-builder` — build secure MCP integrations for SATNO systems and agents.
+- `skill-bank-manager` — curate and update vetted open-source GitHub skills.
+- `skill-installer-satno` — install project-specific SATNO skill bundles.
 
 ## Skill format
 
@@ -29,3 +31,8 @@ Keep this repository under version control. Install or register individual skill
 3. Never assume external access; check the available tools before acting.
 4. Preserve project-specific conventions, repositories, data formats, and safety constraints.
 5. Use small, focused skills rather than one oversized instruction file.
+
+
+## Skill bank
+
+The repository includes a curated upstream registry under `skills-bank/` with source, license, priority, and project mapping for official Supabase, WordPress, Vercel, and Microsoft Playwright skills.
