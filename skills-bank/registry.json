@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-01",
+  "entries": [
+    {
+      "id": "supabase",
+      "source_repo": "supabase/agent-skills",
+      "source_path": "skills/supabase",
+      "branch": "main",
+      "license": "MIT",
+      "maintainer": "Supabase",
+      "projects": ["satno-crm"],
+      "priority": "critical",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "source_repo": "vercel-labs/agent-skills",
+      "source_path": "skills/react-best-practices",
+      "branch": "main",
+      "license": "MIT",
+      "maintainer": "Vercel",
+      "projects": ["satno-crm"],
+      "priority": "high",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "wordpress-router",
+      "source_repo": "WordPress/agent-skills",
+      "source_path": "skills/wordpress-router",
+      "branch": "trunk",
+      "license": "GPL-2.0-or-later",
+      "projects": ["satnoco.ir", "satno-tender-radar"],
+      "priority": "high",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "wp-project-triage",
+      "source_repo": "WordPress/agent-skills",
+      "source_path": "skills/wp-project-triage",
+      "branch": "trunk",
+      "license": "GPL-2.0-or-later",
+      "projects": ["satnoco.ir", "satno-tender-radar"],
+      "priority": "high",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "wp-plugin-development",
+      "source_repo": "WordPress/agent-skills",
+      "source_path": "skills/wp-plugin-development",
+      "branch": "trunk",
+      "license": "GPL-2.0-or-later",
+      "projects": ["satno-tender-radar"],
+      "priority": "critical",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "wp-rest-api",
+      "source_repo": "WordPress/agent-skills",
+      "source_path": "skills/wp-rest-api",
+      "branch": "trunk",
+      "license": "GPL-2.0-or-later",
+      "projects": ["satnoco.ir", "satno-tender-radar", "satno-crm"],
+      "priority": "high",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "wp-wpcli-and-ops",
+      "source_repo": "WordPress/agent-skills",
+      "source_path": "skills/wp-wpcli-and-ops",
+      "branch": "trunk",
+      "license": "GPL-2.0-or-later",
+      "projects": ["satnoco.ir", "satno-tender-radar"],
+      "priority": "high",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "wp-performance",
+      "source_repo": "WordPress/agent-skills",
+      "source_path": "skills/wp-performance",
+      "branch": "trunk",
+      "license": "GPL-2.0-or-later",
+      "projects": ["satnoco.ir"],
+      "priority": "high",
+      "mode": "upstream-reference"
+    },
+    {
+      "id": "playwright-cli",
+      "source_repo": "microsoft/playwright",
+      "source_path": "packages/playwright-core/src/tools/skills/playwright-cli",
+      "branch": "main",
+      "license": "Apache-2.0",
+      "maintainer": "Microsoft",
+      "projects": ["satno-crm", "satno-bale-market", "satno-tender-radar"],
+      "priority": "high",
+      "mode": "upstream-reference"
+    }
+  ],
+  "candidates": [
+    "vercel-composition-patterns",
+    "web-design-guidelines",
+    "wp-block-development",
+    "wp-block-themes",
+    "wp-interactivity-api",
+    "wp-abilities-api",
+    "wp-abilities-audit",
+    "wp-abilities-verify",
+    "wp-phpstan",
+    "wp-playground",
+    "wp-env",
+    "wp-plugin-directory-guidelines"
+  ]
+}
