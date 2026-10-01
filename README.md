@@ -10,6 +10,9 @@ A curated set of Agent Skills for ChatGPT/Codex workflows used by SATNO projects
 - `satno-tender-radar` — maintain the SATNO Tender Radar workflow and outputs.
 - `satno-bale-market` — develop the Bale market-intelligence collector and dashboard.
 - `satno-solar-engineering` — structure solar engineering calculations, checks, and deliverables.
+- `frontend-design` — design polished Persian/RTL interfaces for SATNO web products.
+- `webapp-testing` — run browser-based regression and release-readiness checks.
+- `mcp-builder` — build secure MCP integrations for SATNO systems and agents.
 
 ## Skill format
 
