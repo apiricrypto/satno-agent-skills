@@ -11,6 +11,7 @@
 - vercel-react-best-practices (official upstream)
 - playwright-cli (official upstream)
 - mcp-builder
+- satno-llm-router
 
 ## SATNO Bale Market Intelligence
 **Critical**
@@ -21,6 +22,7 @@
 - playwright-cli
 - frontend-design
 - mcp-builder
+- satno-llm-router
 
 ## SATNO Tender Radar
 **Critical**
@@ -35,6 +37,7 @@
 - wp-performance
 - webapp-testing
 - mcp-builder
+- satno-llm-router
 
 ## satnoco.ir
 **Critical**
