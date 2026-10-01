@@ -15,6 +15,7 @@ A curated set of Agent Skills for ChatGPT/Codex workflows used by SATNO projects
 - `mcp-builder` — build secure MCP integrations for SATNO systems and agents.
 - `skill-bank-manager` — curate and update vetted open-source GitHub skills.
 - `skill-installer-satno` — install project-specific SATNO skill bundles.
+- `satno-llm-router` — route AI workloads across vetted LLM providers with privacy-aware fallback.
 
 ## Skill format
 
@@ -36,3 +37,8 @@ Keep this repository under version control. Install or register individual skill
 ## Skill bank
 
 The repository includes a curated upstream registry under `skills-bank/` with source, license, priority, and project mapping for official Supabase, WordPress, Vercel, and Microsoft Playwright skills.
+
+
+## LLM provider bank
+
+`llm-providers/` tracks vetted discovery sources, provider metadata, and SATNO routing policy. Free-tier APIs are treated as discovery candidates, not automatically trusted for sensitive production data.
