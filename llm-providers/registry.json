@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-01",
+  "discovery_sources": [
+    {
+      "id": "awesome-free-llm-apis",
+      "repo": "mnfst/awesome-free-llm-apis",
+      "license": "CC0-1.0",
+      "role": "provider-discovery",
+      "trust": "secondary-reference"
+    }
+  ],
+  "providers": [
+    {
+      "id": "groq",
+      "priority": "high",
+      "strengths": ["latency", "openai-compatible", "classification", "extraction"],
+      "projects": ["satno-bale-market", "satno-tender-radar"],
+      "sensitive_data_default": false
+    },
+    {
+      "id": "openrouter",
+      "priority": "high",
+      "strengths": ["routing", "fallback", "model-choice"],
+      "projects": ["satno-crm", "satno-bale-market", "satno-tender-radar"],
+      "sensitive_data_default": false
+    },
+    {
+      "id": "nvidia-nim",
+      "priority": "medium",
+      "strengths": ["reasoning", "model-variety", "large-context"],
+      "projects": ["satno-crm", "satno-bale-market"],
+      "sensitive_data_default": false
+    },
+    {
+      "id": "cloudflare-workers-ai",
+      "priority": "medium",
+      "strengths": ["edge", "model-variety"],
+      "projects": ["satno-bale-market", "satno-tender-radar"],
+      "sensitive_data_default": false
+    },
+    {
+      "id": "mistral",
+      "priority": "medium",
+      "strengths": ["code", "text", "openai-compatible"],
+      "projects": ["satno-crm"],
+      "sensitive_data_default": false
+    },
+    {
+      "id": "gemini",
+      "priority": "medium",
+      "strengths": ["multimodal", "large-context"],
+      "projects": ["satno-crm", "satno-bale-market"],
+      "sensitive_data_default": false
+    },
+    {
+      "id": "ovhcloud-ai-endpoints",
+      "priority": "low",
+      "strengths": ["anonymous-testing", "eu-hosting"],
+      "projects": ["experiments"],
+      "sensitive_data_default": false
+    },
+    {
+      "id": "ollama-local",
+      "priority": "high",
+      "strengths": ["privacy", "local-control", "offline-capable"],
+      "projects": ["satno-crm", "voice-agent", "internal-tools"],
+      "sensitive_data_default": true
+    }
+  ]
+}
