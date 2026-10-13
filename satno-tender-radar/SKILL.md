@@ -1,6 +1,6 @@
 ---
 name: satno-tender-radar
-description: Develop and operate SATNO Tender Radar workflows for Iranian tenders and inquiries. Use for WordPress plugin work, source normalization, tender scoring, deadline extraction, de-duplication, report generation, Bale delivery, and CRM queue integration.
+description: Develop and operate SATNO Tender Radar workflows for Iranian tenders and inquiries. Use for the standalone Python/Windows Server radar, interactive source collection, source normalization, tender scoring, deadline extraction, de-duplication, report generation, Bale delivery, and CRM queue integration.
 ---
 
 # SATNO Tender Radar
@@ -43,3 +43,6 @@ Use transparent A/B/C classification based on subject relevance, geography, impo
 
 ## Integration
 Prepare A/B opportunities for CRM intake with stable identifiers and enough metadata for follow-up.
+
+## Current deployment boundary
+Treat the current Tender Radar as a standalone Python application on Windows Server, not a WordPress plugin. Inspect the repository/package before selecting framework-specific skills. Preserve operator-assisted CAPTCHA entry; do not report an unverified official identifier as confirmed. Keep live CRM delivery disabled until the user authorizes activation and the receiver contract is verified. Keep solar and security opportunities separate in Persian RTL reports. Do not infer battery energy or equipment units from unrelated project data.

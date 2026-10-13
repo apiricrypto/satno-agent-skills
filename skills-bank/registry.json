@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-01",
+  "reviewed_on": "2026-10-14",
   "entries": [
     {
       "id": "supabase",
@@ -9,7 +9,9 @@
       "branch": "main",
       "license": "MIT",
       "maintainer": "Supabase",
-      "projects": ["satno-crm"],
+      "projects": [
+        "satno-crm"
+      ],
       "priority": "critical",
       "mode": "upstream-reference"
     },
@@ -20,7 +22,9 @@
       "branch": "main",
       "license": "MIT",
       "maintainer": "Vercel",
-      "projects": ["satno-crm"],
+      "projects": [
+        "satno-crm"
+      ],
       "priority": "high",
       "mode": "upstream-reference"
     },
@@ -30,7 +34,9 @@
       "source_path": "skills/wordpress-router",
       "branch": "trunk",
       "license": "GPL-2.0-or-later",
-      "projects": ["satnoco.ir", "satno-tender-radar"],
+      "projects": [
+        "satnoco.ir"
+      ],
       "priority": "high",
       "mode": "upstream-reference"
     },
@@ -40,7 +46,9 @@
       "source_path": "skills/wp-project-triage",
       "branch": "trunk",
       "license": "GPL-2.0-or-later",
-      "projects": ["satnoco.ir", "satno-tender-radar"],
+      "projects": [
+        "satnoco.ir"
+      ],
       "priority": "high",
       "mode": "upstream-reference"
     },
@@ -50,7 +58,7 @@
       "source_path": "skills/wp-plugin-development",
       "branch": "trunk",
       "license": "GPL-2.0-or-later",
-      "projects": ["satno-tender-radar"],
+      "projects": [],
       "priority": "critical",
       "mode": "upstream-reference"
     },
@@ -60,7 +68,10 @@
       "source_path": "skills/wp-rest-api",
       "branch": "trunk",
       "license": "GPL-2.0-or-later",
-      "projects": ["satnoco.ir", "satno-tender-radar", "satno-crm"],
+      "projects": [
+        "satnoco.ir",
+        "satno-crm"
+      ],
       "priority": "high",
       "mode": "upstream-reference"
     },
@@ -70,7 +81,9 @@
       "source_path": "skills/wp-wpcli-and-ops",
       "branch": "trunk",
       "license": "GPL-2.0-or-later",
-      "projects": ["satnoco.ir", "satno-tender-radar"],
+      "projects": [
+        "satnoco.ir"
+      ],
       "priority": "high",
       "mode": "upstream-reference"
     },
@@ -80,7 +93,9 @@
       "source_path": "skills/wp-performance",
       "branch": "trunk",
       "license": "GPL-2.0-or-later",
-      "projects": ["satnoco.ir"],
+      "projects": [
+        "satnoco.ir"
+      ],
       "priority": "high",
       "mode": "upstream-reference"
     },
@@ -91,7 +106,11 @@
       "branch": "main",
       "license": "Apache-2.0",
       "maintainer": "Microsoft",
-      "projects": ["satno-crm", "satno-bale-market", "satno-tender-radar"],
+      "projects": [
+        "satno-crm",
+        "satno-bale-market",
+        "satno-tender-radar"
+      ],
       "priority": "high",
       "mode": "upstream-reference"
     }

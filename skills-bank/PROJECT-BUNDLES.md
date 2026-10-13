@@ -24,20 +24,18 @@
 - mcp-builder
 - satno-llm-router
 
-## SATNO Tender Radar
+## SATNO Tender Radar (standalone Python / Windows Server)
 **Critical**
 - satno-tender-radar
-- wordpress-router
-- wp-project-triage
-- wp-plugin-development
+- frontend-design
+- webapp-testing
+- satno-brand
 
 **High value**
-- wp-rest-api
-- wp-wpcli-and-ops
-- wp-performance
-- webapp-testing
 - mcp-builder
-- satno-llm-router
+- Python/FastAPI/testing skills after checking the actual repository and licenses
+
+WordPress skills apply to satnoco.ir, not to the standalone Radar. Prepared local bundle: `project-bundles/tender-radar/`; repository/runtime installation remains pending because its repository was not visible in the connected GitHub inventory.
 
 ## satnoco.ir
 **Critical**

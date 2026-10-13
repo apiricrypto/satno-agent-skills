@@ -42,3 +42,7 @@ The repository includes a curated upstream registry under `skills-bank/` with so
 ## LLM provider bank
 
 `llm-providers/` tracks vetted discovery sources, provider metadata, and SATNO routing policy. Free-tier APIs are treated as discovery candidates, not automatically trusted for sensitive production data.
+
+## Project-local deployment and plugin review
+
+See [project bundles](skills-bank/PROJECT-BUNDLES.md) and [SATNO plugin audit, 2026-10-14](skills-bank/PLUGIN-AUDIT-2026-10-14.md). The standalone Tender Radar bundle is prepared under project-bundles/tender-radar; it is not a WordPress plugin and its independent repository/runtime installation is pending.
